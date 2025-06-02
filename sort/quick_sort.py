@@ -27,6 +27,8 @@ def quick_sort(array,left:int,right:int):
     quick_sort(array,povit+1,right)
          
 
+
+
 array = [3,5,8,1,2,9,4,7,6]
 quick_sort(array,left=0,right=len(array)-1)
 print(array)        
