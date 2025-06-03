@@ -25,4 +25,4 @@ insert_sort(array)
 
 print(array)            
 
-#时间复杂度是O(n*n)的级别
+#时间复杂度是O(n*n)的级别,等比数列的钱前n项和
