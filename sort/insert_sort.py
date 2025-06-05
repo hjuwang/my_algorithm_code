@@ -15,7 +15,7 @@ def insert_sort(array):
             # 比base 大的要依次向后移动一个位置
             array[j+1]=array[j]
             j-=1
-        
+        # 前面这个人没我高，那我就站在这个人的后面
         array[j+1]=base
  
  
