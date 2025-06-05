@@ -1,4 +1,10 @@
-from modules import TreeNode
+import sys
+from pathlib import Path
+sys.path.append(str(Path(__file__).parent.parent))
+
+
+from modules.tree_node import TreeNode
+
 
 #分治的思想构建二叉树
 def dfs(
@@ -39,4 +45,5 @@ root = build_tree(preorder,inorder)
 
 print(root.left)
 
-    
+
+
