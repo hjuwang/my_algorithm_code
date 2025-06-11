@@ -1,8 +1,6 @@
 
 
-nums = [1,2,3,4]
-a = enumerate(nums)
-for i,val in a:
-    print(i,val)
+a = [1,2,3]
+a.pop()
 
-inorder_map = {val:i for i,val in enumerate(nums)}
+print(a)
